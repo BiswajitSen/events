@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100vw;
+    height: 50vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
+
+#root > div {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.blue {
+    background-color: blueviolet;
+}
